@@ -1,0 +1,56 @@
+extends base.pug
+block scripts
+ script(src='/static/index.js')
+block style
+    style
+      include ../static/style.css 
+      include ../static/contact.css 
+      include ../static/about.css 
+block content 
+       <div class="about-section">
+       <h1>About Us Page</h1>
+       <p>The Prince Dance Academy offers a complete curriculum of courses ranging from pre-school through pre-professional dance. Dance subjects include Ballet, Tap, Jazz, Pointe, Hip hop, Modern, Lyrical, Contemporary, Hawaiian, Pre-dance, Kinderdance, Tiny tots, Social & Ballroom Dancing, Zumba Fitness, and Yoga.</p>
+      
+       </div>
+
+       <h2 style="text-align:center">Our Team</h2>
+       <div class="row">
+       <div class="column">
+       <div class="card">
+       <img src="/static/Prince.jpg" alt="Jane" style="width:100%">
+       <div class="container">
+        <h2>Prince Kumar</h2>
+        <p class="title">Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>praj76315@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+        </div>
+        </div>
+        </div>
+
+        <div class="column">
+        <div class="card">
+        <img src="/static/ujjawal.jpg" class="ujju" alt="Mike" style="width:100%">
+        <div class="container">
+        <h2>Ujjawal S Chauhan</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+        </div>
+        </div>
+        </div>
+
+        <div class="column">
+        <div class="card">
+        <img src="/static/Prince.jpg" alt="John" style="width:100%">
+        <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+        </div>
+        </div>
+        </div>
+        </div>
